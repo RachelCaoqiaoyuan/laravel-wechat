@@ -1,0 +1,24 @@
+{
+    "name": "rachel\/wechat",
+    "description": "this is a wechat service provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rachel",
+            "email": "1042118338@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rachel\\Wechat\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rachel\\Wechat\\Providers\\WechatServiceProvider"
+            ]
+        }
+    }
+}

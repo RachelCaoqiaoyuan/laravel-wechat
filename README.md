@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require rachel/wechat:mater-dev
+$ composer require rachel/wechat:dev-master
 ```
 ## 配置文件发布
 

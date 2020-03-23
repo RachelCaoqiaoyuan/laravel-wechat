@@ -1,5 +1,5 @@
 <?php
-Route::any('/','WeChatController@index')->middleware('swechat.check');;
+Route::any('/','WeChatController@index')->middleware('swechat.check');
 Route::get('hellooo',function (){
     return view('swechat::welcome');
 });

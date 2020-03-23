@@ -1,16 +1,29 @@
-<h1 align="center"> achel/wechat </h1>
+<h1 align="center"> Rachel/wechat </h1>
 
-<p align="center"> this is a wechat service provider.</p>
+<p align="center"> 这是基于laravel开发的微信公众号的组件</p>
 
 
 ## Installing
 
 ```shell
-$ composer require /achel/wechat -vvv
+$ composer require rachel/wechat:mater-dev
 ```
+## 配置文件发布
 
+```shell
+php artisan vendor:publish 
+```
 ## Usage
-
+```
+laravel应用，在config/app.php注册serviceprovider和facede
+"providers": [
+                "Rachel\\Wechat\\Providers\\WechatServiceProvider"
+            ]
+```
+```
+浏览器访问路由http://localhost/swechat
+Route::any('/','WeChatController@index')->middleware('swechat.check');
+```
 TODO
 
 ## Contributing

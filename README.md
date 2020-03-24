@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require Rachelcaoqiaoyuan/wechat:dev-master
+$ composer require rachelcaoqiaoyuan/wechat:dev-master
 ```
 ## 配置文件发布
 

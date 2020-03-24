@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\Wechat\Http\Controllers;
+namespace Rachelcaoqiaoyuan\Wechat\Http\Controllers;
 
 use Illuminate\Http\Request;
 

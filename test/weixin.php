@@ -1,5 +1,5 @@
 <?php
-namespace Rachel\Wechat;
+namespace Rachelcaoqiaoyuan\Wechat;
 class Wexin{
 //    public function
 }

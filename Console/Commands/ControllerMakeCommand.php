@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\Wechat\Console\Commands;
+namespace Rachelcaoqiaoyuan\Wechat\Console\Commands;
 
 use Illuminate\Routing\Console\ControllerMakeCommand as Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -17,7 +17,7 @@ class ControllerMakeCommand extends Command
     protected $name = 'swechat-make:controller';
     protected $description = '这是组件中的创建Controller的命令';
 
-    protected $namespace = "Rachel\Wechat\Http\Controllers";
+    protected $namespace = "Rachelcaoqiaoyuan\Wechat\Http\Controllers";
 
     protected function qualifyClass($name)
     {
@@ -29,10 +29,10 @@ class ControllerMakeCommand extends Command
         // $this->rootNamespace() => App => ShineYork\LaravelWechat
         $name = Str::replaceFirst($this->rootNamespace(), '', $name);
         // var_dump($name);
-        return app()->basePath().'\\vendor\rachel\wechat\\'.str_replace('\\', '/', $name).'.php';
+        return app()->basePath().'\\vendor\Rachelcaoqiaoyuan\wechat\\'.str_replace('\\', '/', $name).'.php';
     }
     public function rootNamespace()
     {
-        return "Rachel\Wechat\\";
+        return "Rachelcaoqiaoyuan\Wechat\\";
     }
 }

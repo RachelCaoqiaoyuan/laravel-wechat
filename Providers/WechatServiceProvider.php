@@ -1,11 +1,11 @@
 <?php
 
-namespace Rachel\Wechat\Providers;
+namespace Rachelcaoqiaoyuan\Wechat\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
-use Rachel\Wechat\Console\Commands\ControllerMakeCommand;
-use Rachel\Wechat\Http\Middleware\SWeChatCheck;
+use Rachelcaoqiaoyuan\Wechat\Console\Commands\ControllerMakeCommand;
+use Rachelcaoqiaoyuan\Wechat\Http\Middleware\SWeChatCheck;
 
 //用服务提供者注册自己组件的路由
 class WechatServiceProvider extends ServiceProvider
@@ -48,7 +48,7 @@ class WechatServiceProvider extends ServiceProvider
     private function routeConfiguration()
     {
         return [
-            'namespace' => 'Rachel\Wechat\Http\Controllers',
+            'namespace' => 'Rachelcaoqiaoyuan\Wechat\Http\Controllers',
             'prefix' => 'swechat',
         ];
     }

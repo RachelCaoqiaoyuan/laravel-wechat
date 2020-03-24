@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\Wechat\Http\Middleware;
+namespace Rachelcaoqiaoyuan\Wechat\Http\Middleware;
 
 use Closure;
 
@@ -31,7 +31,7 @@ class SWeChatCheck
                 return response($echostr);
             }
         }else{
-            return response(false);//中间件通过响应输出
+            return response("false");//中间件通过响应输出
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\Wechat\Http\Controllers;
+namespace Rachelcaoqiaoyuan\Wechat\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -12,7 +12,6 @@ class WeChatController extends Controller
 {
     public function index(Request $request)
     {
-
                 //接收
                 $postObj = file_get_contents('php://input');
                 $postArr = simplexml_load_string($postObj, "SimpleXMLElement", LIBXML_NOCDATA);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rachel\Wechat\Http\Middleware;
+namespace Rachelcaoqiaoyuan\Wechat\Http\Middleware;
 
 use Closure;
 

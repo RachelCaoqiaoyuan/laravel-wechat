@@ -1,4 +1,4 @@
-<h1 align="center"> Rachel/wechat </h1>
+<h1 align="center"> Rachelcaoqiaoyuan/wechat </h1>
 
 <p align="center"> 这是基于laravel开发的微信公众号的组件</p>
 
@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require rachel/wechat:dev-master
+$ composer require Rachelcaoqiaoyuan/wechat:dev-master
 ```
 ## 配置文件发布
 
@@ -17,7 +17,7 @@ php artisan vendor:publish
 ```
 laravel应用，在config/app.php注册serviceprovider和facede
 "providers": [
-                "Rachel\\Wechat\\Providers\\WechatServiceProvider"
+                "Rachelcaoqiaoyuan\\Wechat\\Providers\\WechatServiceProvider"
             ]
 ```
 ```
